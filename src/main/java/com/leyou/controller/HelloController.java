@@ -10,6 +10,7 @@ public class HelloController {
     @GetMapping("Hello")
     public String hello() {
         return "Hello SpringBoot";
+        
     }
 }
 
